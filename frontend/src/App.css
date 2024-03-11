@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Navbar li{
+
+  display: inline-block;
+  margin:20px;
+  background-color: white;
+  padding: 5px 13px;
+  border-radius: 10px;
+  border:2px solid black;
+  text-decoration:none
+}
+.Navbar{
+  background-color: aqua;
+}
+
+.footer {
+  position: absolute; /* Change to 'fixed' to keep the footer at the bottom */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  background-color: aqua;
+  text-align: center;
+}
